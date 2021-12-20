@@ -1,0 +1,93 @@
+.wrapper {
+    max-width: 900px;
+    margin: auto;
+    font-family: "Arial";
+}
+ 
+.toolstrip{
+    width: 100%;
+    background-color: #444444;
+    overflow: auto;
+}
+ 
+.toolstrip a {
+    float: left;
+    width: 11%;
+    text-align: center;
+    padding: 6px 5px;
+    transition: all 0.5s ease;
+    /*color: white;*/
+}
+ 
+
+.toolstrip a img{
+    max-width:100%;
+    height:auto;
+}
+
+.toolstrip p
+{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 30px;
+    padding-left: 55px;
+}
+
+
+
+
+/* Schimba culoarea de fundal cand cursorul este pe iconita */
+.toolstrip a:hover {
+    background-color: white;
+  }
+ 
+/* Schimba culoarea cand o iconita este selectata */
+.selected {
+    background-color: white; 
+}
+ 
+#my-canvas{
+    width: 100%;
+    border: 3px solid #000000;
+    
+}
+ 
+#img-data-div{
+    width: 100%;
+    max-width: 900px;
+    height: 20px;
+}
+
+#img-data-div a
+{
+    display: list-item;
+}
+ 
+
+.range
+{
+    width: 200px;
+    height: 30px;
+    margin-left: 70px;
+    background-color: white;
+}
+
+#toolColor
+{
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+#backgroundColor
+{
+    margin-left: 50px;
+}
+
+#Numar
+{
+    width: auto;
+    height: auto;
+    margin-left: 80px;
+}
+
